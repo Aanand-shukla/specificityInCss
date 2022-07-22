@@ -1,0 +1,17 @@
+/* inline>heading>class>element */
+
+.heading{
+    color: aqua;
+    background-color: blanchedalmond;
+}
+/* Specificity 0 0 1 0 */
+#head{
+  color: black;
+  background-color: #ffffff;
+}
+
+h1#head.heading{
+    color: brown;
+    background-color: aquamarine;
+}
+/* Specificity 0 1 1 1  */
